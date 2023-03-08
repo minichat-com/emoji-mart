@@ -95,8 +95,8 @@ export default {
     choices: ['preview', 'search', 'none'],
   },
   theme: {
-    value: 'auto',
-    choices: ['auto', 'light', 'dark'],
+    value: 'chatruletka',
+    choices: ['chatruletka', 'ometv', 'minichat', 'light', 'dark'],
   },
 
   // Data
