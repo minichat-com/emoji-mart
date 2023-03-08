@@ -142,4 +142,15 @@ const search = {
   ),
 }
 
-export default { categories, search }
+const chatruletka = {
+  search: {
+    delete: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <circle className="stroke" cx="8" cy="8" r="5.5" stroke="#1E54A1"></circle>
+        <path d="M10.4 5.6 8 8m0 0-2.4 2.4M8 8l2.4 2.4M8 8 5.6 5.6" stroke="#83CCE4"></path>
+      </svg>
+    ),
+  }
+}
+
+export default { categories, search, chatruletka }

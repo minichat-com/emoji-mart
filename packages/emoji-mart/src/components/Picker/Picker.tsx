@@ -819,7 +819,6 @@ export default class Picker extends Component {
               onKeyDown={this.handleSearchKeyDown}
               autoComplete="off"
             ></input>
-            <span class="icon loupe flex">{Icons.search.loupe}</span>
             {this.state.searchResults && (
               <button
                 title="Clear"
@@ -829,7 +828,7 @@ export default class Picker extends Component {
                 onClick={this.clearSearch}
                 onMouseDown={this.preventDefault}
               >
-                {Icons.search.delete}
+                {this.state.theme === 'chatruletka' ? Icons.chatruletka.search.delete : Icons.search.delete}
               </button>
             )}
           </div>
