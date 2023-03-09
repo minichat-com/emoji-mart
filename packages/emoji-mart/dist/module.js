@@ -2463,7 +2463,6 @@ class $89bd6bb200cc8fef$export$2e2bcd8739ae039 extends (0, $fb96b826c0c5f37a$exp
     }
     renderSearch() {
         const renderSkinTone = this.props.previewPosition == "none" || this.props.skinTonePosition == "search";
-        console.log("this.props.theme, this.state.theme", this.props.theme, this.state.theme);
         return /*#__PURE__*/ (0, $bd9dd35321b03dd4$export$34b9dba7ce09269b)("div", {
             children: [
                 /*#__PURE__*/ (0, $bd9dd35321b03dd4$export$34b9dba7ce09269b)("div", {

@@ -4986,7 +4986,6 @@ var $75afa6943437e26f$export$2e2bcd8739ae039 = /*#__PURE__*/ function(Component1
             key: "renderSearch",
             value: function renderSearch() {
                 var renderSkinTone = this.props.previewPosition == "none" || this.props.skinTonePosition == "search";
-                console.log("this.props.theme, this.state.theme", this.props.theme, this.state.theme);
                 return /*#__PURE__*/ (0, $55ec52987511209e$export$34b9dba7ce09269b)("div", {
                     children: [
                         /*#__PURE__*/ (0, $55ec52987511209e$export$34b9dba7ce09269b)("div", {
